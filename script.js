@@ -21,25 +21,6 @@ async function searchLedamot(searchCriteria) {
 function createCard(matches) {
 	const cardContainer = $("#cardContainer");
 	const randomPerson = Math.floor(Math.random() * 349);
-	const personObject = matches.personlista.person[randomPerson];
-
-	cardContainer.append(`
-		<div class="ledamotCard row">
-			
-			<div class="col-3 pr-3">
-				<img src="${personObject.bild_url_192}" alt="${personObject.sorteringsnamn} profilbild">
-			</div>
-			<div class="col-9">
-				<p><b>Parti: </b>${personObject.parti}</p>
-				<p><b>Status: </b>${personObject.status}</p>
-				<p><b>Valkrets: </b>${personObject.valkrets}</p>
-				<p><b>Utbildning: </b>${personObject.personuppgift.uppgift[2].uppgift}</p>
-			</div>
-			
-			
-
-		</div>
-		`);
 
 	console.log("Hej");
 	console.log(matches.personlista.person[randomPerson]);
