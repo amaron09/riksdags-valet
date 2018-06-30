@@ -1,0 +1,25 @@
+@import "reset";
+@import "header";
+
+* {
+	box-sizing: border-box;
+}
+
+form {
+	label {
+		text-align: center;
+		font-size: 2em;
+		margin-bottom: 2rem;
+	}
+
+	input {
+		padding: 1rem;
+	}
+
+	.searchSubmit {
+		display: none;
+	}
+}
+
+
+
