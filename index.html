@@ -8,7 +8,7 @@
 </head>
 <body>
 	
-	<header class="container-fluid mb-5">
+	<header class="container-fluid">
 		<div class="container">
 			<nav class="row pt-3 pb-3 d-flex justify-content-between align-items-center">
 				<span>Home</span>
@@ -19,46 +19,46 @@
 			</nav>
 		</div>
 	</header>
+	<div class="content-fluid hero pb-4 pt-4 mb-4">
+		<section class="container">
+			<form class="mb-5">
+				<div class="row justify-content-center mb-4">
+					<label class="col-12">Sök ledamot</label>
+				</div>
+				<div class="row justify-content-center pr-5 pl-5 mb-4">
+					<input class="col-12" type="text" name="searchLedamot">
+					<input class="searchSubmit" id="searchSubmit" type="submit" name="searchSubmit">
+				</div>
+				
+				<div class="row">
+					<div class="col-md-12 col-lg-4">
+						<label for="partiFilter">Parti</label>
+						<select size="8" multiple class="form-control" id="partiFilter">
+							
+						</select>
+					</div>
+					<div class="col-md-12 col-lg-4">
+						<label for="valkretsFilter">Valkrets</label>
+						<select size="8" multiple class="form-control" id="valkretsFilter">
 
-	<main class="container">
-		<form class="mb-5">
-			<div class="row justify-content-center mb-4">
-				<label class="col-12">Sök ledamot</label>
-			</div>
-			<div class="row justify-content-center pr-5 pl-5 mb-4">
-				<input class="col-12" type="text" name="searchLedamot">
-				<input class="searchSubmit" id="searchSubmit" type="submit" name="searchSubmit">
-			</div>
+						</select>
+					</div>
+					<div class="col-md-12 col-lg-4">
+						<label for="utskottFilter">Utskott/organ</label>
+						<select size="8" multiple class="form-control" id="utskottFilter">
+
+						</select>
+					</div>
+				</div>
+
+
+			</form>
+		</section>
+	</div>
+
+	<article id="cardContainer" class="container">
 			
-			<div class="row">
-				<div class="col-md-12 col-lg-3">
-					<label for="partiFilter">Parti</label>
-					<select multiple class="form-control" id="partiFilter">
-						
-					</select>
-				</div>
-				<div class="col-md-12 col-lg-3">
-					<label for="valkretsFilter">Valkrets</label>
-					<select multiple class="form-control" id="valkretsFilter">
-
-					</select>
-				</div>
-				<div class="col-md-12 col-lg-3">
-					
-				</div>
-				<div class="col-md-12 col-lg-3">
-					
-				</div>
-			</div>
-
-
-		</form>
-
-		<hr class="mb-3">
-
-		<article id="cardContainer" class="container">
-			
-		</article>
+	</article>
 		
 	</main>
 	

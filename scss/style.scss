@@ -9,6 +9,14 @@ h2 {
 	font-size: 1.5em;
 }
 
+.hero {
+	background: url("../images/votering.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
 form {
 	label {
 		text-align: center;
@@ -25,5 +33,10 @@ form {
 	}
 }
 
+article {
+	p {
+		line-height: 1.6;
+	}
+}
 
 
